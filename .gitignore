@@ -1,0 +1,45 @@
+# .gitignore file
+# Image files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.webp
+
+# Model files (if you want to exclude large files)
+*.pth
+*.pkl
+*.h5
+*.model
+
+# Dataset files (if any)
+*.csv
+*.xlsx
+*.json
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and outputs
+logs/
+outputs/
+saved_models/  # if you want to exclude saved models
